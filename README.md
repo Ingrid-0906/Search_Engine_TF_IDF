@@ -12,6 +12,12 @@ Existem 3 termos que são importantes na área do NLP:
 > Usando o TF-IDF (Term-Frequency + Inverse Document Frequency), nós podemos conseguir o peso de cada palavra em relação ao documento inteiro (que se houver um DB, então ao records do banco de dados passados). Esses pesos então serão computados como 'score' e a fórmula para tal é,
 >>> SCORE = TF * IDF
 
+## Nomeando os arquivos:
+- /teste : Pasta que contém os testes para ambos os arquivos (ft_dt.py e query.py).
+- ft_dt.py : Extrai as palavras e aplicada a lógica matemática.
+- query.py : recebe o json do ft_dt com as respostas e sorteia por score o resultado final.
+- main.py : arquivo principal, ou administrador dos métodos.
+
 ## Links e Fontes:
 - https://pt.wikipedia.org/wiki/Tf%E2%80%93idf
 - https://youtu.be/zLMEnNbdh4Q
