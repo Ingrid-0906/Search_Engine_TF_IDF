@@ -16,13 +16,20 @@ Existem 3 termos que são importantes na área do NLP:
 - /teste : Pasta que contém os testes para ambos os arquivos (ft_dt.py e query.py).
 - ft_dt.py : Extrai as palavras e aplicada a lógica matemática.
 - query.py : recebe o json do ft_dt com as respostas e sorteia por score o resultado final.
+- (NOVO) query_UTF.py : recebe o json do ft_dt com respostas e inicia a frase com a mesma keyword. Ou seja, começa de onde a palavra foi dita em diante.
 - main.py : arquivo principal, ou administrador dos métodos.
 
 ## Links e Fontes:
 - https://pt.wikipedia.org/wiki/Tf%E2%80%93idf
 - https://youtu.be/zLMEnNbdh4Q
 
-## Resultado:
+## Resultado query.py:
 - Qual é o max_results? 3
 - Qual é a palavra? fonte de dados
 ![image](https://github.com/Ingrid-0906/Search_Engine_TF_IDF/assets/92744210/51befacb-e454-4b4f-9ca2-7fa520cab3f7)
+
+## Resultado query_UTF.py:
+- Qual é o max_results? 10
+- Qual é a palavra? machine learning
+![image](https://github.com/Ingrid-0906/Search_Engine_TF_IDF/assets/92744210/fe978a65-4a5e-49bc-9aea-13ffe7efe513)
+
