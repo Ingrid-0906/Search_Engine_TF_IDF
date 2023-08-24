@@ -15,3 +15,8 @@ Existem 3 termos que são importantes na área do NLP:
 ## Links e Fontes:
 - https://pt.wikipedia.org/wiki/Tf%E2%80%93idf
 - https://youtu.be/zLMEnNbdh4Q
+
+## Resultado:
+- Qual é o max_results? 3
+- Qual é a palavra? fonte de dados
+![image](https://github.com/Ingrid-0906/Search_Engine_TF_IDF/assets/92744210/51befacb-e454-4b4f-9ca2-7fa520cab3f7)
