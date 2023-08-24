@@ -17,8 +17,11 @@ if __name__ == "__main__":
     index_file_path = file_saved
     
     # Inputs para definir os paramentros da busca
-    max_results = input('Qual é o max_results?')
-    query_keywords = input("Qual é a palavra?")
+    try:
+        max_results = input('Qual é o max_results?')
+        query_keywords = input("Qual é a palavra?")
+    except ValueError:
+        print("Por favor, não deixe campos em branco.")
     
     # Chamando o segundo script
     query = query.Query(index_file_path, max_results, query_keywords)
